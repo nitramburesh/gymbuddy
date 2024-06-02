@@ -5,7 +5,9 @@
     "dev": "npm-run-all --parallel frontend backend",
     "dockup": "docker compose up -d",
     "dockbuild": "docker compose build",
-    "dockill": "docker compose down"
+    "dockill": "docker compose down",
+    "dockstart": "docker compose start",
+    "dockstop": "docker compose stop"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
